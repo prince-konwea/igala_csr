@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    color: aquamarine;
+    font-size: bold;
+}
+
+.left_div{
+    border: 2px solid  green;
+    height: 50vh;
+    width: 50vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.left_div input {
+     padding: 10px;
+     width: 50%;
+     font-size: 15px;
+}
+
+.left_div button{
+    padding: 10px;
+    width: 30%;
+    background-color: greenyellow;
+    border: none;
+}
+
+.right_div{
+    border: 2px solid blue;
+    height: 50vh;
+    width: 50vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
